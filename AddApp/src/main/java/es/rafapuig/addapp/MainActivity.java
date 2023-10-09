@@ -15,8 +15,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final int RESULT_ACTIVITY_REQUEST_CODE = 12345;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
