@@ -30,12 +30,13 @@ public class MainActivity extends AppCompatActivity {
 
         // ope1S y ope2S are the operands entered by the user in the UI
 
-        //TODO ---
+
 
         int ope1 = ope1S.isEmpty() ? 0 : Integer.parseInt(ope1S);
         int ope2 = ope2S.isEmpty() ? 0 : Integer.parseInt(ope2S);
 
-        Intent intent = new Intent("es.rafapuig.addapp.OPERATION-RESULT");
+        //TODO - set the string argument
+        Intent intent = new Intent("");
         intent.putExtra("OP1", ope1);
         intent.putExtra("OP2", ope2);
         intent.putExtra("OPERATION", "-");
