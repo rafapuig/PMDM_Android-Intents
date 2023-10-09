@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //intent.putExtra("RESULT", ope1 + ope2);
 
         //Only start without expecting a result back
-        startActivity(intent);
+        //startActivity(intent);
 
         //Old way to start Activity for result (deprecated)
         //startActivityForResult(intent, RESULT_ACTIVITY_REQUEST_CODE);
