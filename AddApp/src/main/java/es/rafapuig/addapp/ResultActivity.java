@@ -36,6 +36,7 @@ public class ResultActivity extends AppCompatActivity {
     int calculate(int operand1, int operand2, String operation) {
         return switch (operation) {
             case "+" -> operand1 + operand2;
+            case "-" -> operand1 - operand2;
             default -> 0;
         };
     }
