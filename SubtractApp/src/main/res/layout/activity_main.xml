@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvFirstOperand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter first operand:" />
+
+    <EditText
+        android:id="@+id/txt_ope1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tvSecondOperand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter second operand:" />
+
+    <EditText
+        android:id="@+id/txt_ope2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCalcuteClick"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/txt_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
