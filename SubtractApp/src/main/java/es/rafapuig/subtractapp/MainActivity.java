@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void onCalcuteClick(View v) {
+    public void onCalculateClick(View v) {
         String ope1S = ((EditText) findViewById(R.id.txt_ope1)).getText().toString();
         String ope2S = ((EditText) findViewById(R.id.txt_ope2)).getText().toString();
 
